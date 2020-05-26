@@ -1,0 +1,4 @@
+﻿  exam526.c
+C:\Users\wo2ek\source\repos\Project526\Project526\exam526.c(7,7): warning C4013: 'exam3'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\wo2ek\source\repos\Project526\Project526\exam526.c(69): warning C4716: 'exam4': 값을 반환해야 합니다.
+  Project526.vcxproj -> C:\Users\wo2ek\source\repos\Project526\Debug\Project526.exe
