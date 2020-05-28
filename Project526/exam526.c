@@ -5,6 +5,7 @@ int main() {
 	//exam1();
 	//exam2();
 	exam3();
+	return 0;
 }
 
 int exam1() {
@@ -62,8 +63,4 @@ int exam3() {
 	printf("Ãâ·Â : %d", result);
 
 	return 0;
-}
-
-int exam4() {
-	printf("Hello world!");
 }
