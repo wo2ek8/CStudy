@@ -1,3 +1,5 @@
-﻿  exam62.c
-C:\Users\wo2ek\source\repos\Project526\Project526\exam62.c(9,7): warning C4013: 'prob2'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+﻿  exam63.c
+C:\Users\wo2ek\source\repos\Project526\Project526\exam63.c(5,7): warning C4013: 'exam1'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\wo2ek\source\repos\Project526\Project526\exam63.c(14,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\wo2ek\source\repos\Project526\Project526\exam63.c(14,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
   Project526.vcxproj -> C:\Users\wo2ek\source\repos\Project526\Debug\Project526.exe

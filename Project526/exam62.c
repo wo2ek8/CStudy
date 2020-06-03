@@ -6,8 +6,8 @@ int main() {
 	//exam2();
 	//exam3();
 	//prob1();
-	prob2();
-	//prob3();
+	//prob2();
+	prob3();
 
 	return 0;
 }
@@ -72,7 +72,7 @@ int prob2() {
 		result -= n;
 	}
 
-	printf("result : %d\ni : %d", result, n);
+	printf("result : %d\nn : %d", result, n);
 	return 0;
 }
 
@@ -88,6 +88,5 @@ int prob3() {
 			break;
 		}
 	}
-	
 	return 0;
 }
