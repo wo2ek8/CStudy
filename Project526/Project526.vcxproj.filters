@@ -27,5 +27,8 @@
     <ClCompile Include="exam63.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="team66.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

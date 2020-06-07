@@ -6,8 +6,8 @@ int main() {
 	//exam2();
 	//exam3();
 	//prob1();
-	//prob2();
-	prob3();
+	prob2();
+	//prob3();
 
 	return 0;
 }
