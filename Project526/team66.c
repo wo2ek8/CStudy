@@ -6,7 +6,10 @@ int main() {
 	//yuchan11();
 	//yuchan12();
 	//yuchan13();
-	test();
+	//test();
+	hamin3();
+	jaei3();
+	//jaei1();
 
 	return 0;
 }
@@ -29,7 +32,7 @@ int yuchan11() {
 	float sum = 0.0;
 
 	for (a = 3; a <= 10; b = b + 2) {
-		sum = sum + (a + b) / a;
+		sum = sum + (float)(a + b) / a;
 		a++;
 	}
 	printf("%.3f", sum);
@@ -90,6 +93,51 @@ int test2() {
 	}
 
 	printf("%d", b);
+
+	return 0;
+}
+
+int hamin3() {
+	int num = 0;
+	int i;
+
+	printf("입력 : ");
+	scanf("%d", &num);
+
+	for (i = 0; num > 0; i++) {
+		num /= 2;
+	}
+
+	printf("유효비트수 : %d", i);
+
+	return 0;
+}
+
+int jaei3() {
+	int a;
+
+	printf("\n양의 정수 1개를 입력 : ");
+	scanf("%d", &a);
+
+	for (int i = 7; i >= 0; i--) {
+		printf("%d", a >> i & 1);
+		if (a >> i & 1) {
+			printf("\n유효비트수 : %d", i + 1);
+			break;
+		}
+	}
+
+	return 0;
+}
+
+int jaei1() {
+	float result = 0;
+
+	for (int i = 0; i < 8; i++) {
+		result += (float)(3 * i + 2) / (i + 3);
+	}
+
+	printf("result : %f\n", result);
 
 	return 0;
 }
