@@ -42,5 +42,8 @@
     <ClCompile Include="review616.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="exam617.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
